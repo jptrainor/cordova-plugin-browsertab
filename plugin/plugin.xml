@@ -3,14 +3,13 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-browsertab"
-    version="0.2.1">
+    version="0.2.2">
     <name>cordova-plugin-browsertab</name>
     <description>
         This plugin provides an interface to in-app browser tabs that exist on
         some mobile platforms, specifically Custom Tabs on Android and
         SFSafariViewController on iOS.
     </description>
-    <dependency id="cordova-plugin-compat" version="^1.0.0" />
 
     <js-module name="BrowserTab" src="www/browsertab.js">
         <clobbers target="cordova.plugins.browsertab" />
